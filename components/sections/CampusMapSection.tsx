@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 
-const CampusMap = dynamic(() => import("./CampusMap"), { ssr: false });
+const CampusMap = dynamic(() => import("@/components/features/CampusMap"), { ssr: false });
 
 export default function CampusMapSection() {
   return (

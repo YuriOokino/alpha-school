@@ -9,16 +9,15 @@ export default function Footer() {
           {/* Logo and Contact */}
           <div className="md:col-span-1">
             <Link href="/" className="inline-block mb-4">
-              <Image src="/logo.png" alt="Alpha School Logo" width={150} height={50} className="h-10 w-auto" />
+              <Image 
+                src="/assets/logo-white.svg" 
+                alt="Alpha School Logo" 
+                width={150} 
+                height={50} 
+                className="h-10 w-auto" 
+              />
             </Link>
             <p className="mb-4">admissions@alpha.school</p>
-            <Image
-              src="/placeholder.svg?height=60&width=60"
-              alt="Certification Badge"
-              width={60}
-              height={60}
-              className="rounded-full"
-            />
           </div>
 
           {/* About */}
